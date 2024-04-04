@@ -42,7 +42,7 @@ This is a CRUD (Create, Read, Update, Delete) application built using MongoDB, R
 - Ensure MongoDB is running locally or replace the connection string with your database URL.
 - Use Cloudinary API credentials for image uploading.
 
-## Contributing
+## Preview
 
 ![Preview Image](preview.png)
 
