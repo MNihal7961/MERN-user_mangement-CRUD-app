@@ -1,4 +1,4 @@
-# CRUD Application with Cloudinary Integration
+# MERN User Management CRUD App
 
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
@@ -12,13 +12,21 @@ This is a CRUD (Create, Read, Update, Delete) application built using MongoDB, R
 
 ## Features
 
-- Create, read, update, and delete operations on data.
-- MongoDB for data storage.
-- React for front-end development.
-- Vite for fast development environment setup.
-- Tailwind CSS for styling.
-- Node.js and Express for backend API development.
-- Cloudinary integration for profile image uploading.
+### User Side
+- **Login with Email and Password** 🔒: Users can log in to the application using their email and password.
+- **JWT Authentication** 🔑: JSON Web Token (JWT) authentication is implemented for secure user authentication.
+- **Upload Profile Images Using Cloudinary** 📷: Users can upload profile images, which are stored on Cloudinary for efficient image management.
+- **Edit Profile** ✏️: Users have the ability to edit their profile information, including their name and profile picture.
+- **Reset Password** 🔑: Users can reset their password if they forget it.
+- **Delete Account** ❌: Users can delete their account permanently.
+
+### Admin Side
+- **Show All Users** 👥: Admins can view a list of all users registered in the application.
+- **Delete Users** ❌: Admins have the authority to delete user accounts as needed.
+- **JWT Authentication** 🔑: Admins are authenticated using JSON Web Tokens for secure access.
+- **Login with Email and Password** 🔒: Admins can log in to the application using their email and password.
+- **Edit Users** ✏️: Admins can edit user details, such as name, email, and profile picture.
+- **Search Users** 🔍: Admins can search for specific users based on their details.
 
 ## Setup
 
@@ -36,8 +44,8 @@ This is a CRUD (Create, Read, Update, Delete) application built using MongoDB, R
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository and submit pull requests to suggest improvements or add new features.
+![Preview Image](preview.png)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.# MERN-user_mangement-CRUD-app
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
